@@ -4,6 +4,7 @@
 a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 body{
     margin: 0;
@@ -30,7 +31,7 @@ img{
     justify-content: space-between;
     align-items: center;
     background-color:rgb(43, 41, 41);
-    padding: 10px 50px;
+    padding: 0px 50px;
     
 }
 .header .logo{
@@ -44,9 +45,12 @@ img{
 .header .navbar-menu li{
     margin-left:30px
 }
-.header .navbar-menu li a:hover{
-    background-color: rgb(24, 22, 22);
+.header .navbar-menu li a{
+    display: block;
     padding: 10px;
+}
+.header .navbar-menu li a:hover{
+    background-color: rgb(24, 22, 22);  
 }
 
 .banner{
@@ -66,6 +70,7 @@ img{
     padding: 10px 10px;
     background-color: rgb(43, 41, 41);
     border: none;
+    color: white;
 }
 .history{
     display: flex;
@@ -94,7 +99,7 @@ img{
 }
 .service{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     color: black;  
 }
@@ -103,13 +108,13 @@ img{
 }
 .service .location, 
 .service .fitness{
-    width: 34%;
+    width: 33.33%;
     background-color: aliceblue;
     padding: 20px;
     text-align: center;
 } 
 .service .meal{
-    width: 33%;
+    width: 33.39%;
     background-color: rgb(235, 193, 116);
     padding: 20px;
     text-align: center;
@@ -122,6 +127,97 @@ img{
 }
 footer{
     text-align: center;
-    background-color:  rgb(43, 41, 41) ;
+    background-color:  rgb(114, 107, 107) ;
     padding:20px
+}
+
+/*About Page*/
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px ;
+    background-color: aliceblue;
+}
+.about-info .text, .contact .text{
+    width: 60%;
+    color: black;
+}
+.about-info .text h2,
+.contact .text h2{
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+.about-info .img{
+   /*  margin-left: 50px 50px; */
+   margin: 50px 50px 0 0;
+}
+.about-info .img img{
+   
+    width: 250px;
+    border-radius: 50%;
+}
+.content .review{
+    /* background-color: aliceblue; */
+    background-image: url(./image_resources/image_resources/test-bg.jpg);
+    height: 500px;
+    padding: 50px 50px;
+    background-size: cover;
+   
+}
+.review h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.review .box{
+    padding: 20px 20px;
+    height: 150px;
+    background-color: rgba(235, 193, 116, 0.664);
+    display: flex;
+    margin-top: 30px;
+}
+.review .box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.review .box .text-review{
+    padding-top: 20px;
+}
+
+/*Contact Page*/
+.contact{
+    padding: 20px 50px ;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+.contact form .form-group{
+    margin-top: 20px;
+    color: black;
+}
+.contact form .form-group input{
+    width: 100%;
+    border-radius: 2px;
+    border: #ccc 1px solid;
+    padding: 3px;
+}
+.contact form .form-group .message{
+    width: 100%;
+    border-radius: 2px;
+    border: #ccc 1px solid;
+}
+.contact-details{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(43, 41, 41) ;
+    color: white;
+    padding: 30px 80px;
+    line-height: 2.5em;
 }
