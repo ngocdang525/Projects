@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.container{
+    max-width: 1080px;
+    justify-content: center;
+    align-items: center;
+    margin: 0  auto 30px;
+    background-image: url(./image_resources/image_resources/showcase.jpg);
+} 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(43, 41, 41);
+    padding: 10px 50px;
+    
+}
+.header .logo{
+    font-weight: bold;
+    font-size: 18px;
+}
+.header .navbar-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header .navbar-menu li{
+    margin-left:30px
+}
+.header .navbar-menu li a:hover{
+    background-color: rgb(24, 22, 22);
+    padding: 10px;
+}
+
+.banner{
+    text-align: center;
+    margin: 100px;
+}
+.banner h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.color-font{
+    color: rgb(240, 208, 149);
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 10px;
+    background-color: rgb(43, 41, 41);
+    border: none;
+}
+.history{
+    display: flex;
+    height: 300px;
+}
+.history img{
+    width: 50%;
+}
+.history .info{
+    background-color: rgb(43, 41, 41);
+    text-align: center;
+    padding: 30px;
+}
+.history .info h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.history .info .info-btn{
+    margin-top: 30px;
+    padding: 10px 10px;
+    border: none;
+}
+.history .info .info-btn a{
+    color: black;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;  
+}
+.service .title{
+    font-weight: bold;
+}
+.service .location, 
+.service .fitness{
+    width: 34%;
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+} 
+.service .meal{
+    width: 33%;
+    background-color: rgb(235, 193, 116);
+    padding: 20px;
+    text-align: center;
+}
+.service span {
+    font-size: 25px;
+}
+.service p{
+    margin:20px 30px;
+}
+footer{
+    text-align: center;
+    background-color:  rgb(43, 41, 41) ;
+    padding:20px
+}
