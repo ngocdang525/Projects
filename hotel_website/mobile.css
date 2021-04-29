@@ -1,0 +1,51 @@
+.header{
+    padding: 0 10px ;
+}
+.banner{
+    margin: 50px;
+}
+.banner h2{
+    font-size: 30px;
+}
+
+.history{
+    display: block;
+    height: 100%;
+}
+.history img{
+    display: none;
+}
+.service{
+    display: block;
+}
+.service .group, .service .meal{
+    width: 100%;
+} 
+.about-info{
+    display: block;
+    padding: 20px 50px ;
+}
+.about-info .text, .contact .text{
+    width: 100%;
+    color: black;
+}
+.about-info .img{
+    display: none;
+ }
+ .review .box{
+    padding: 20px 5px;
+    
+}
+ .review .box .text-review{
+    padding-top: 0;
+    overflow: hidden;
+}
+.contact-details{
+    display: block;
+    padding: 0 10px;
+}
+.contact-details .address{
+    border-bottom:  #ccc dotted 1px ;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
