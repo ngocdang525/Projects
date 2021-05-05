@@ -44,6 +44,7 @@ h1{
     padding: 15px 20px;
     background-color: rgba(85, 78, 78, 0.575);
 }
+
 p{
     margin: 20px 0;
 }
@@ -61,18 +62,30 @@ p{
 .bg-secondary{
     background-color: #0473cc;
 }
+.bg-dark{
+    background-color: rgb(58, 51, 51);
+    color: white;
+}
+.bg-white{
+    background-color: #fff;
+    color: black;
+}
+
 /*----*/
 #header{
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./img/home/showcase.jpg) no-repeat center center/cover;
     height: 100vh;
     position: relative;
 }
+#header.bg-blog{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./img/home/blog.jpg) no-repeat center center/cover;
+    height: 30vh;
+}
 #header .logo{
     font-size: 24px;
 }
 #header .logo span{
-    color:rgb(15, 192, 94);
-   
+    color:rgb(15, 192, 94);  
 }
 #menu li{
     margin: 0 15px 0 15px;
@@ -142,6 +155,9 @@ p{
 #blogs, #team{
     margin: 30px 0;
 }
+.padding-20X{
+    padding: 0 20px;
+}
 
 #team .team-members .member{
     text-align: center;
@@ -175,6 +191,17 @@ p{
 #footer .social-icons i{
     margin-right: 10px;
 }
+/*Blog1*/
+.blog-img img{
+    width: 20%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.blog-border{
+    border-bottom: 1px solid #ccc;
+    font-size: 32px;
+    padding-bottom: 15px;
+}
 
 /*responsive mobile*/
 @media(max-width: 768px){
@@ -203,8 +230,9 @@ p{
     }
     #cases .lists .block{
        flex:100%;
-       max-width: 100%;
-       
+       max-width: 100%;    
      }
 
 }
+/**/
+/*Blog*/
