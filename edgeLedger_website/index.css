@@ -175,3 +175,36 @@ p{
 #footer .social-icons i{
     margin-right: 10px;
 }
+
+/*responsive mobile*/
+@media(max-width: 768px){
+    #navbar {
+        display: block; 
+        text-align: center;
+    }
+    #menu{
+        margin-top: 20px;
+    }
+    .flex-items{
+        flex-direction: column;
+    }
+    #solutions, #blogs , #request{
+        display: block;
+    }
+    .left, .right{
+        width: 100%;
+    }
+    #solutions h1 {
+        font-size: 20px;
+    }
+    .right{
+        padding-top: 50px;
+        height: 325px;
+    }
+    #cases .lists .block{
+       flex:100%;
+       max-width: 100%;
+       
+     }
+
+}
