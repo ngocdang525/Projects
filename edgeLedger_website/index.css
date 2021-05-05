@@ -43,8 +43,11 @@ h1{
     width: 100%;
     padding: 15px 20px;
     background-color: rgba(85, 78, 78, 0.575);
+    transition: 0.5s;
 }
-
+#navbar.top{
+    background:transparent;
+}
 p{
     margin: 20px 0;
 }
