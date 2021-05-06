@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    color: #fff;
+}
+h1{
+    font-size: 38px;
+    font-weight: bold;
+}
+p{
+    margin:30px 0px ;
+}
+a{  
+    text-decoration: none;
+    
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: none;
+    transition: all 0.3 ease-in;
+}
+.btn:hover{
+    background-color: rgb(70, 67, 67);
+    color: #fff;
+}
+.btn-prev:hover{
+    background-color: #fff;
+    color: black;
+}
+.bg-white{
+    background-color: #fff;
+    color: black;
+}
+.bg-dark{
+    background-color: rgb(71, 66, 66);
+    color: #fff;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding:0 50px;
+}
+#page1{
+    background-color: rgb(91, 125, 218);
+}
+#page2{
+    background-color: rgb(224, 181, 101);
+}
+#page3{
+    background-color: rgb(84, 224, 178);
+}
+#page4{
+    background-color: rgb(179, 80, 179);
+}
+
+#page1 h1{
+    transform: translateY(-1200px);
+    animation: heading 2s forwards ease-in;
+}
+#page1 p{
+    transform: translateX(-1800px);
+    animation: text 2s forwards ease-in 1s;
+}
+@keyframes heading{
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes text{
+    to {
+        transform: translateX(0);
+    }
+}
